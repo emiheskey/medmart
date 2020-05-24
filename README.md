@@ -1,2 +1,2 @@
 # medmart
-Online Pharmacy and Personal supply styor
+Online Pharmacy and Personal supply stores
