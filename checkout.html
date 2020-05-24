@@ -1,0 +1,1024 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Medmart - Checkout</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- CSS 
+    ========================= -->
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+   
+    <!--header area start-->
+    
+    <!--Offcanvas menu area start-->
+    <div class="off_canvars_overlay">
+                
+    </div>
+    <div class="Offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                    </div>
+                    <div class="Offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                              <a href="javascript:void(0)"><i class="ion-android-close"></i></a>  
+                        </div>
+                        <div class="support_info">
+                            <p>Telephone Enquiry: <a href="tel:+6494461709">(012) 800 456 789 – 987</a></p>
+                        </div>
+                        <div class="top_right text-right">
+                            <ul>
+                               <li><a href="#"> Sign In </a></li>
+                               <li><a href="#"> Sign Up </a></li>
+                               <li><a href="#"> Checkout </a></li> 
+                            </ul>
+                        </div> 
+                        <div class="search_container">
+                           <form action="#">
+                               <div class="hover_category">
+                                    <select class="select_option" name="select" id="categori">
+                                        <option selected value="1">All Categories</option>
+                                        <option value="2">Pharmacy & Health</option>
+                                        <option value="3">Mother & Child</option>
+                                        <option value="4">Natural Remedies</option>
+                                        <option value="5">Beauty & Skin Care </option>
+                                        <option value="6">Men's Grooming</option>
+                                        <option value="7">Personal Care</option>
+                                    </select>                        
+                               </div>
+                                <div class="search_box">
+                                    <input placeholder="Search product..." type="text">
+                                    <button type="submit">Search</button> 
+                                </div>
+                            </form>
+                        </div> 
+                        
+                        <div class="middel_right_info">
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i>&#8358;147.00 <i class="fa fa-angle-down"></i></a>
+                                <span class="cart_quantity">2</span>
+                                <!--mini cart-->
+                                 <div class="mini_cart">
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Product Name</a>
+                                            <p>Qty: 1 X <span> &#8358;60.00 </span></p>    
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Product Name</a>
+                                            <p>Qty: 1 X <span> &#8358;60.00 </span></p>   
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_total">
+                                            <span>Sub total:</span>
+                                            <span class="price">&#8358;138.00</span>
+                                        </div>
+                                        <div class="cart_total mt-10">
+                                            <span>total:</span>
+                                            <span class="price">&#8358;138.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini_cart_footer">
+                                       <div class="cart_button">
+                                            <a href="cart.html">View cart</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html">Checkout</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="about.html">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="shop.html">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Pharmacy & Health</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Vitamins, Minerals & Multivitamins</a></li>
+                                                <li><a href="#">Pharmacy & Health</a></li>
+                                                <li><a href="#">Anti Inflammatory </a></li>
+                                                <li><a href="#">Thermometers</a></li>
+                                                <li><a href="#">Books, Magazines and DVDs</a></li>
+                                                <li><a href="#">Anti Infectives</a></li>
+                                                <li><a href="#">Medical Supports</a></li>
+                                                <li><a href="#">Pain Relievers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Natural Remedies</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Ulcer & Digestion</a></li>
+                                                <li><a href="#">Skin Care</a></li>
+                                                <li><a href="#">Foot Care</a></li>
+                                                <li><a href="#">Baby & Child Health</a></li>
+                                                <li><a href="#">Cough & Cold</a></li>
+                                                <li><a href="#">Over-the-Counter</a></li>
+                                                <li><a href="#">Appetite Stimulant</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Mother & Baby</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Ulcer & Digestion</a></li>
+                                                <li><a href="#">Skin Care</a></li>
+                                                <li><a href="#">Foot Care</a></li>
+                                                <li><a href="#">Baby & Child Health</a></li>
+                                                <li><a href="#">Cough & Cold</a></li>
+                                                <li><a href="#">Over-the-Counter</a></li>
+                                                <li><a href="#">Appetite Stimulant</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Personal Care</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Diet & Detox</a></li>
+                                        <li><a href="#">Personal Hygiene</a></li>
+                                        <li><a href="#">First Aid</a></li>
+                                        <li><a href="#">Medical Supports</a></li>
+                                        <li><a href="#">Anti Infectives</a></li>
+                                        <li><a href="#">Medical Supports</a></li>
+                                        <li><a href="#">Pain Relievers</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Beauty & Skincare </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Ear Infections</a></li>
+                                        <li><a href="#">Eye Infections</a></li>
+                                        <li><a href="#">Immune Suppresants</a></li>
+                                        <li><a href="#">Hormonal Medications</a></li>
+                                        <li><a href="#">Diet & Detox</a></li>
+                                        <li><a href="#">Personal Hygiene</a></li>
+                                        <li><a href="#">First Aid</a></li>
+                                        <li><a href="#">Medical Supports</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Sign In</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Sign Up</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">about Us</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#"> Contact Us</a> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="Offcanvas_footer">
+                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span>
+                            <ul>
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Offcanvas menu area end-->
+    
+    <header>
+        <div class="main_header">
+            <!--header top start-->
+            <div class="header_top">
+                <div class="container">  
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="support_info">
+                                <p>Telephone Enquiry: <a href="tel:+6494461709">(012) 800 456 789 – 987</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="top_right text-right">
+                                <ul>
+                                   <li><a href="#"> Sign In </a></li> 
+                                   <li><a href="#"> Sign Up </a></li> 
+                                   <li><a href="#"> Checkout </a></li> 
+                                </ul>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header top start-->
+            <!--header middel start-->
+            <div class="header_middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6">
+                            <div class="middel_right">
+                                <div class="search_container">
+                                   <form action="#">
+                                       <div class="hover_category">
+                                            <select class="select_option" name="select" id="categori1">
+                                                <option selected value="1">All Categories</option>
+                                                <option value="2">Pharmacy & Health</option>
+                                                <option value="3">Mother & Child</option>
+                                                <option value="4">Natural Remedies</option>
+                                                <option value="5">Beauty & Skin Care </option>
+                                                <option value="6">Men's Grooming</option>
+                                                <option value="7">Personal Care</option>
+                                            </select>                        
+                                       </div>
+                                        <div class="search_box">
+                                            <input placeholder="Search product..." type="text">
+                                            <button type="submit">Search</button> 
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="middel_right_info">
+                                    <div class="mini_cart_wrapper">
+                                        <a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i>&#8358;147.00 <i class="fa fa-angle-down"></i></a>
+                                        <span class="cart_quantity">2</span>
+                                        <!--mini cart-->
+                                         <div class="mini_cart">
+                                            <div class="cart_item">
+                                               <div class="cart_img">
+                                                   <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                               </div>
+                                                <div class="cart_info">
+                                                    <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                                    <p>Qty: 1 X <span> &#8358;60.00 </span></p>    
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="cart_item">
+                                               <div class="cart_img">
+                                                   <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                               </div>
+                                                <div class="cart_info">
+                                                    <a href="#">Natus erro at congue massa commodo</a>
+                                                    <p>Qty: 1 X <span> &#8358;60.00 </span></p>   
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="mini_cart_table">
+                                                <div class="cart_total">
+                                                    <span>Sub total:</span>
+                                                    <span class="price">&#8358;138.00</span>
+                                                </div>
+                                                <div class="cart_total mt-10">
+                                                    <span>total:</span>
+                                                    <span class="price">&#8358;138.00</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="mini_cart_footer">
+                                               <div class="cart_button">
+                                                    <a href="cart.html">View cart</a>
+                                                </div>
+                                                <div class="cart_button">
+                                                    <a href="checkout.html">Checkout</a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!--mini cart end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header middel end-->
+            <!--header bottom satrt-->
+            <div class="main_menu_area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="main_menu menu_position"> 
+                                <nav>  
+                                    <ul>
+                                        <li class="mega_items"><a href="#">Pharmacy & Health<i class="fa fa-angle-down"></i></a> 
+                                            <div class="mega_menu">
+                                                <ul class="mega_menu_inner">
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">Vitamins, Minerals & Multivitamins</a></li>
+                                                            <li><a href="#">Pharmacy & Health</a></li>
+                                                            <li><a href="#">Anti Inflammatory </a></li>
+                                                            <li><a href="#">Thermometers</a></li>
+                                                            <li><a href="#">Books, Magazines and DVDs</a></li>
+                                                            <li><a href="#">Anti Infectives</a></li>
+                                                            <li><a href="#">Medical Supports</a></li>
+                                                            <li><a href="#">Pain Relievers</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">Ear Infections</a></li>
+                                                            <li><a href="#">Eye Infections</a></li>
+                                                            <li><a href="#">Immune Suppresants</a></li>
+                                                            <li><a href="#">Hormonal Medications</a></li>
+                                                            <li><a href="#">Diet & Detox</a></li>
+                                                            <li><a href="#">Personal Hygiene</a></li>
+                                                            <li><a href="#">First Aid</a></li>
+                                                            <li><a href="#">Medical Supports</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">Ulcer & Digestion</a></li>
+                                                            <li><a href="#">Skin Care</a></li>
+                                                            <li><a href="#">Foot Care</a></li>
+                                                            <li><a href="#">Baby & Child Health</a></li>
+                                                            <li><a href="#">Cough & Cold</a></li>
+                                                            <li><a href="#">Over-the-Counter</a></li>
+                                                            <li><a href="#">Appetite Stimulant</a></li>
+                                                            <li><a href="#">Diet & Detox</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <ul>
+                                                            <li><a href="#">Diet & Detox</a></li>
+                                                            <li><a href="#">Personal Hygiene</a></li>
+                                                            <li><a href="#">First Aid</a></li>
+                                                            <li><a href="#">Medical Supports</a></li>
+                                                            <li><a href="#">Anti Infectives</a></li>
+                                                            <li><a href="#">Medical Supports</a></li>
+                                                            <li><a href="#">Pain Relievers</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Natural Remedies<i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Ulcer & Digestion</a></li>
+                                                <li><a href="#">Skin Care</a></li>
+                                                <li><a href="#">Foot Care</a></li>
+                                                <li><a href="#">Baby & Child Health</a></li>
+                                                <li><a href="#">Cough & Cold</a></li>
+                                                <li><a href="#">Over-the-Counter</a></li>
+                                                <li><a href="#">Appetite Stimulant</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Mother & Baby <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Ear Infections</a></li>
+                                                <li><a href="#">Eye Infections</a></li>
+                                                <li><a href="#">Immune Suppresants</a></li>
+                                                <li><a href="#">Hormonal Medications</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                                <li><a href="#">Personal Hygiene</a></li>
+                                                <li><a href="#">First Aid</a></li>
+                                                <li><a href="#">Medical Supports</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Beauty & Skincare <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Ear Infections</a></li>
+                                                <li><a href="#">Eye Infections</a></li>
+                                                <li><a href="#">Immune Suppresants</a></li>
+                                                <li><a href="#">Hormonal Medications</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                                <li><a href="#">Personal Hygiene</a></li>
+                                                <li><a href="#">First Aid</a></li>
+                                                <li><a href="#">Medical Supports</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Men's Grooming <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Ear Infections</a></li>
+                                                <li><a href="#">Eye Infections</a></li>
+                                                <li><a href="#">Immune Suppresants</a></li>
+                                                <li><a href="#">Hormonal Medications</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                                <li><a href="#">Personal Hygiene</a></li>
+                                                <li><a href="#">First Aid</a></li>
+                                                <li><a href="#">Medical Supports</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#">Personal Care <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Ear Infections</a></li>
+                                                <li><a href="#">Eye Infections</a></li>
+                                                <li><a href="#">Immune Suppresants</a></li>
+                                                <li><a href="#">Hormonal Medications</a></li>
+                                                <li><a href="#">Diet & Detox</a></li>
+                                                <li><a href="#">Personal Hygiene</a></li>
+                                                <li><a href="#">First Aid</a></li>
+                                                <li><a href="#">Medical Supports</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">About <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">About us</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Contact us</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>  
+                                </nav> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header bottom end-->
+        </div> 
+    </header>
+    <!--header area end-->
+    
+    <!--sticky header area start-->
+    <div class="sticky_header_area sticky-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="sticky_header_right menu_position">
+                        <div class="main_menu"> 
+                            <nav>  
+                                <ul>
+                                    <li class="mega_items"><a href="#">Pharmacy & Health<i class="fa fa-angle-down"></i></a> 
+                                        <div class="mega_menu">
+                                            <ul class="mega_menu_inner">
+                                                <li>
+                                                    <ul>
+                                                        <li><a href="#">Vitamins, Minerals & Multivitamins</a></li>
+                                                        <li><a href="#">Pharmacy & Health</a></li>
+                                                        <li><a href="#">Anti Inflammatory </a></li>
+                                                        <li><a href="#">Thermometers</a></li>
+                                                        <li><a href="#">Books, Magazines and DVDs</a></li>
+                                                        <li><a href="#">Anti Infectives</a></li>
+                                                        <li><a href="#">Medical Supports</a></li>
+                                                        <li><a href="#">Pain Relievers</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li><a href="#">Ear Infections</a></li>
+                                                        <li><a href="#">Eye Infections</a></li>
+                                                        <li><a href="#">Immune Suppresants</a></li>
+                                                        <li><a href="#">Hormonal Medications</a></li>
+                                                        <li><a href="#">Diet & Detox</a></li>
+                                                        <li><a href="#">Personal Hygiene</a></li>
+                                                        <li><a href="#">First Aid</a></li>
+                                                        <li><a href="#">Medical Supports</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li><a href="#">Ulcer & Digestion</a></li>
+                                                        <li><a href="#">Skin Care</a></li>
+                                                        <li><a href="#">Foot Care</a></li>
+                                                        <li><a href="#">Baby & Child Health</a></li>
+                                                        <li><a href="#">Cough & Cold</a></li>
+                                                        <li><a href="#">Over-the-Counter</a></li>
+                                                        <li><a href="#">Appetite Stimulant</a></li>
+                                                        <li><a href="#">Diet & Detox</a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li><a href="#">Diet & Detox</a></li>
+                                                        <li><a href="#">Personal Hygiene</a></li>
+                                                        <li><a href="#">First Aid</a></li>
+                                                        <li><a href="#">Medical Supports</a></li>
+                                                        <li><a href="#">Anti Infectives</a></li>
+                                                        <li><a href="#">Medical Supports</a></li>
+                                                        <li><a href="#">Pain Relievers</a></li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Natural Remedies<i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="#">Ulcer & Digestion</a></li>
+                                            <li><a href="#">Skin Care</a></li>
+                                            <li><a href="#">Foot Care</a></li>
+                                            <li><a href="#">Baby & Child Health</a></li>
+                                            <li><a href="#">Cough & Cold</a></li>
+                                            <li><a href="#">Over-the-Counter</a></li>
+                                            <li><a href="#">Appetite Stimulant</a></li>
+                                            <li><a href="#">Diet & Detox</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Mother & Baby <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="#">Ear Infections</a></li>
+                                            <li><a href="#">Eye Infections</a></li>
+                                            <li><a href="#">Immune Suppresants</a></li>
+                                            <li><a href="#">Hormonal Medications</a></li>
+                                            <li><a href="#">Diet & Detox</a></li>
+                                            <li><a href="#">Personal Hygiene</a></li>
+                                            <li><a href="#">First Aid</a></li>
+                                            <li><a href="#">Medical Supports</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Beauty & Skincare <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="#">Ear Infections</a></li>
+                                            <li><a href="#">Eye Infections</a></li>
+                                            <li><a href="#">Immune Suppresants</a></li>
+                                            <li><a href="#">Hormonal Medications</a></li>
+                                            <li><a href="#">Diet & Detox</a></li>
+                                            <li><a href="#">Personal Hygiene</a></li>
+                                            <li><a href="#">First Aid</a></li>
+                                            <li><a href="#">Medical Supports</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Men's Grooming <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="#">Ear Infections</a></li>
+                                            <li><a href="#">Eye Infections</a></li>
+                                            <li><a href="#">Immune Suppresants</a></li>
+                                            <li><a href="#">Hormonal Medications</a></li>
+                                            <li><a href="#">Diet & Detox</a></li>
+                                            <li><a href="#">Personal Hygiene</a></li>
+                                            <li><a href="#">First Aid</a></li>
+                                            <li><a href="#">Medical Supports</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#">About <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="#">About us</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Contact us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>  
+                            </nav> 
+                        </div>
+                        <div class="middel_right_info">
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i>&#8358;147.00 <i class="fa fa-angle-down"></i></a>
+                                <span class="cart_quantity">2</span>
+                                <!--mini cart-->
+                                 <div class="mini_cart">
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Product Name</a>
+                                            <p>Qty: 1 X <span> &#8358;60.00 </span></p>    
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Product Name</a>
+                                            <p>Qty: 1 X <span> &#8358;60.00 </span></p>   
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_total">
+                                            <span>Sub total:</span>
+                                            <span class="price">&#8358;138.00</span>
+                                        </div>
+                                        <div class="cart_total mt-10">
+                                            <span>total:</span>
+                                            <span class="price">&#8358;138.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini_cart_footer">
+                                       <div class="cart_button">
+                                            <a href="cart.html">View cart</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html">Checkout</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--sticky header area end-->
+    <!--breadcrumbs area start-->
+    <div class="breadcrumbs_area">
+        <div class="container">   
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li>Checkout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </div>
+    <!--breadcrumbs area end-->
+    
+    <!--Checkout page section-->
+    <div class="Checkout_section mt-60">
+       <div class="container">
+            <div class="row">
+               <div class="col-12">
+                    <div class="user-actions">
+                        <h3> 
+                            <i class="fa fa-file-o" aria-hidden="true"></i>
+                            Returning customer?
+                            <a class="Returning" href="#" data-toggle="collapse" data-target="#checkout_login" aria-expanded="true">Click here to login</a>     
+
+                        </h3>
+                         <div id="checkout_login" class="collapse" data-parent="#accordion">
+                            <div class="checkout_info">
+                                <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing & Shipping section.</p>  
+                                <form action="#">  
+                                    <div class="form_group">
+                                        <label>Username or email <span>*</span></label>
+                                        <input type="text">     
+                                    </div>
+                                    <div class="form_group">
+                                        <label>Password  <span>*</span></label>
+                                        <input type="text">     
+                                    </div> 
+                                    <div class="form_group group_3 ">
+                                        <button type="submit">Login</button>
+                                        <label for="remember_box">
+                                            <input id="remember_box" type="checkbox">
+                                            <span> Remember me </span>
+                                        </label>     
+                                    </div>
+                                    <a href="#">Lost your password?</a>
+                                </form>          
+                            </div>
+                        </div>    
+                    </div>   
+               </div>
+            </div>
+            <div class="checkout_form">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <form action="#">
+                            <h3>Billing Details</h3>
+                            <div class="row">
+
+                                <div class="col-lg-6 mb-20">
+                                    <label>First Name <span>*</span></label>
+                                    <input type="text">    
+                                </div>
+                                <div class="col-lg-6 mb-20">
+                                    <label>Last Name  <span>*</span></label>
+                                    <input type="text"> 
+                                </div>
+                                <div class="col-12 mb-20">
+                                    <label>Company Name</label>
+                                    <input type="text">     
+                                </div>
+
+                                <div class="col-12 mb-20">
+                                    <label>Street address  <span>*</span></label>
+                                    <input placeholder="House number and street name" type="text">     
+                                </div>
+                                <div class="col-12 mb-20">
+                                    <input placeholder="Apartment, suite, unit etc. (optional)" type="text">     
+                                </div>
+                                <div class="col-12 mb-20">
+                                    <label>Town / City <span>*</span></label>
+                                    <input  type="text">    
+                                </div> 
+                                <div class="col-lg-6 mb-20">
+                                    <label>Phone<span>*</span></label>
+                                    <input type="text"> 
+
+                                </div> 
+                                 <div class="col-lg-6 mb-20">
+                                    <label> Email Address   <span>*</span></label>
+                                      <input type="text"> 
+
+                                </div> 
+                                <div class="col-12 mb-20">
+                                    <input id="account" type="checkbox" data-target="createp_account" />
+                                    <label for="account" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">Create an account?</label>
+
+                                    <div id="collapseOne" class="collapse one" data-parent="#accordion">
+                                        <div class="card-body1">
+                                           <label> Account password   <span>*</span></label>
+                                            <input placeholder="password" type="password">  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-20">
+                                    <input id="address" type="checkbox" data-target="createp_account" />
+                                    <label class="righ_0" for="address" data-toggle="collapse" data-target="#collapsetwo" aria-controls="collapseOne">Ship to a different address?</label>
+
+                                    <div id="collapsetwo" class="collapse one" data-parent="#accordion">
+                                       <div class="row">
+                                            <div class="col-lg-6 mb-20">
+                                                <label>First Name <span>*</span></label>
+                                                <input type="text">    
+                                            </div>
+                                            <div class="col-lg-6 mb-20">
+                                                <label>Last Name  <span>*</span></label>
+                                                <input type="text"> 
+                                            </div>
+                                            <div class="col-12 mb-20">
+                                                <label>Company Name</label>
+                                                <input type="text">     
+                                            </div>
+
+                                            <div class="col-12 mb-20">
+                                                <label>Street address  <span>*</span></label>
+                                                <input placeholder="House number and street name" type="text">     
+                                            </div>
+                                            <div class="col-12 mb-20">
+                                                <input placeholder="Apartment, suite, unit etc. (optional)" type="text">     
+                                            </div>
+                                            <div class="col-12 mb-20">
+                                                <label>Town / City <span>*</span></label>
+                                                <input  type="text">    
+                                            </div> 
+                                            <div class="col-lg-6 mb-20">
+                                                <label>Phone<span>*</span></label>
+                                                <input type="text"> 
+
+                                            </div> 
+                                             <div class="col-lg-6">
+                                                <label> Email Address   <span>*</span></label>
+                                                  <input type="text"> 
+
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="order-notes">
+                                         <label for="order_note">Order Notes</label>
+                                        <textarea id="order_note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                    </div>    
+                                </div>     	    	    	    	    	    	    
+                            </div>
+                        </form>    
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <form action="#">    
+                            <h3>Your order</h3> 
+                            <div class="order_table table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Product Name <strong> × 2</strong></td>
+                                            <td> &#8358;1605.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>  Product Name	 <strong> × 2</strong></td>
+                                            <td> &#8358;5000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Product Name	<strong> × 2</strong></td>
+                                            <td> &#8358;5000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Product Name	 <strong> × 1</strong></td>
+                                            <td> &#8358;5500.00</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Cart Subtotal</th>
+                                            <td>&#8358;21500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shipping</th>
+                                            <td><strong>&#8358;500.00</strong></td>
+                                        </tr>
+                                        <tr class="order_total">
+                                            <th>Order Total</th>
+                                            <td><strong>&#8358;2200.00</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>     
+                            </div>
+                            <div class="payment_method">
+                                <div class="order_button">
+                                    <button class="btn-block" type="submit">Proceed to Payment</button> 
+                                </div>    
+                            </div> 
+                        </form>         
+                    </div>
+                </div> 
+            </div> 
+        </div>       
+    </div>
+    <!--Checkout page section end-->
+
+   <!--footer area start-->
+   <footer class="footer_widgets">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="widgets_container contact_us">
+                    <div class="footer_logo">
+                        <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                    </div>
+                    <div class="footer_contact">
+                        <p>Medmart Pharmacy store is an independent pharmacy and drugstore retailer. It is focused on providing customers with exceptional service, products and advice.</p>
+                        <p><span>Address</span> Prime Waterview Garden, 1 Oba Saheed Elegushi Street, Off Freedom Way, Lekki, Lagos.</p>
+                        <p><span>Mobile: </span>0908 616 0038, 0704 612 5957, 0702 614 6937 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="widgets_container widget_menu">
+                    <h3>Information</h3>
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="blog.html">Delivery Information</a></li>
+                            <li><a href="contact.html">Privacy Policy</a></li>
+                            <li><a href="services.html">Terms & Conditions</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Gift Certificates</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="widgets_container widget_menu">
+                    <h3>My Account</h3>
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="wishlist.html">Wish List</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Affiliate</a></li>
+                            <li><a href="faq.html">International Orders</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="widgets_container newsletter">
+                    <h3>Follow Us</h3>
+                    <div class="footer_social_link">
+                        <ul>
+                            <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe_form">
+                       <h3>Join Our Newsletter Now</h3>
+                        <form id="mc-form" class="mc-form footer-newsletter" >
+                            <input id="mc-email" type="email" autocomplete="off" placeholder="Your email address..." />
+                            <button id="mc-submit">Subscribe!</button>
+                        </form>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts text-centre">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                        </div><!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-md-9">
+                    <div class="copyright_area">
+                        <p>Copyright &copy; 2020 <a href="#">Medmart Nigeria</a>  All Right Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="footer_payment text-right">
+                        <a href="#"><img src="assets/img/paystack-pay.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</footer>
+<!--footer area end-->
+
+<!-- JS
+============================================ -->
+
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
