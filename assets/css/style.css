@@ -7528,7 +7528,13 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 22px;
   margin-bottom: 30px;
 }
-@media only screen and (max-width: 767px) {
+.account_form a {
+  font-weight: bold;
+}
+.account_form input[type="text"]:focus, .account_form input[type="password"]:focus {
+  border: rgba(207, 21, 21, 0.4) 1px solid;
+}
+  @media only screen and (max-width: 767px) {
   .account_form h2 {
     font-size: 24px;
     margin-bottom: 20px;
