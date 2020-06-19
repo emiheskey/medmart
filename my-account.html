@@ -782,17 +782,32 @@
                                                 <td>May 10, 2020</td>
                                                 <td><span class="success">Completed</span></td>
                                                 <td>N25,000.00</td>
-                                                <td><a href="cart.html" class="view"><i class="fa fa-magnify"></i>view</a></td>
+                                                <td><a href="#OrderDetails" class="view" data-toggle="modal"><i class="fa fa-magnify"></i>view</a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>May 10, 2020</td>
                                                 <td>Processing</td>
                                                 <td>N17,000.00 </td>
-                                                <td><a href="cart.html" class="view">view</a></td>
+                                                <td><a href="#OrderDetails" class="view" data-toggle="modal">view</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <nav aria-label="...">
+                                        <ul class="pagination">
+                                          <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                          </li>
+                                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                          <li class="page-item" aria-current="page">
+                                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                          </li>
+                                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                          <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                          </li>
+                                        </ul>
+                                      </nav>
                                 </div>
                             </div>
                             <div class="tab-pane" id="password">
@@ -1032,7 +1047,72 @@
       </div>
     </div>
   </div>
+<!-- Order Details  -->
+<div class="modal fade" id="OrderDetails" tabindex="-1" role="dialog" aria-labelledby="OrderDetails" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="OrderDetails">Order Details</h5>
+        </div>
+        <div class="modal-body">
+            <div class="table_desc">
+                <div class="cart_page table-responsive">
+                    <div class="pl-3 pt-3">
+                        <h4>Order ID: 234</h4>
+                        <h4>Order Date: 23/05/2020</h4>
+                    </div>
+                <table>
+                <thead>
+                    <tr>
+                        <th class="product_thumb">Image</th>
+                        <th class="product_name">Product</th>
+                        <th class="product-price">Price (NGN)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a></td>
+                        <td class="product_name"><a href="#">Product Name</a>
+                        <br>X 1 at &#8358;6500 per item</td>
+                        <td class="product-price">&#8358;6500.00</td>
+                    </tr>
 
+                    <tr>
+                        <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a></td>
+                        <td class="product_name"><a href="#">Product Name</a>
+                        <br>X 2 at &#8358;4500 per item</td>
+                        <td class="product-price">&#8358;9000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product3.jpg" alt=""></a></td>
+                        <td class="product_name"><a href="#">Product Namet</a>
+                        <br>X 4 at &#8358;2000 per item</td>
+                        <td class="product-price">&#8358;8000.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-size: 16px; text-align: right;">Shipping:</td>
+                        <td style="font-size: 16px;">&#8358; 1000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-size: 16px; text-align: right;">Discount:</td>
+                        <td style="font-size: 16px; color: red;"> - 0</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-size: 20px; text-align: right;">Total Cost:</td>
+                        <td style="font-size: 20px;">&#8358; 24,500</td>
+                    </tr>
+
+                </tbody>
+            </table>   
+                </div>  
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- JS
 ============================================ -->
 
