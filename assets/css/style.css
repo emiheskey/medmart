@@ -10118,3 +10118,30 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Brands */
+.brands
+{
+    width: 100%;
+}
+.brands .col-md-3
+{
+    margin-bottom:20px;
+}
+
+.brand-container {
+  border: 1px solid #0005;
+  padding: 0 0 5px;
+  margin: 10px 0;
+}
+.brand-container .row {
+  padding: 10px;
+}
+.brand-header {
+  padding: 3px;
+  padding-left: 20px;
+  background-color: #0e5e02;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3em;
+}
