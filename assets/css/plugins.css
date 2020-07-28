@@ -4445,7 +4445,7 @@ html.fp-enabled,
   -webkit-transform: translateZ(0);
           transform: translateZ(0); }
   .slinky-menu > ul {
-    left: 0;
+    left: 20;
     position: relative;
     -webkit-transform: translateZ(0);
             transform: translateZ(0); }
