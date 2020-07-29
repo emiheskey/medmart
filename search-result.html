@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Medmart - Checkout</title>
+    <title>Medmart - Welcome to Medmart Pharmacy Stores</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -695,6 +695,7 @@
         </div>
     </div>
     <!--sticky header area end-->
+    
     <!--breadcrumbs area start-->
     <div class="breadcrumbs_area">
         <div class="container">   
@@ -703,7 +704,7 @@
                     <div class="breadcrumb_content">
                         <ul>
                             <li><a href="index.html">home</a></li>
-                            <li>Checkout</li>
+                            <li>search Result</li>
                         </ul>
                     </div>
                 </div>
@@ -712,302 +713,493 @@
     </div>
     <!--breadcrumbs area end-->
     
-    <!--Checkout page section-->
-    <div class="Checkout_section mt-60">
-       <div class="container">
+    <!--shop  area start-->
+    <div class="shop_area shop_reverse mt-60 mb-60">
+        <div class="container">
             <div class="row">
-               <div class="col-12">
-                    <div class="user-actions">
-                        <h3> 
-                            <i class="fa fa-file-o" aria-hidden="true"></i>
-                            Returning customer?
-                            <a class="Returning" href="#" data-toggle="collapse" data-target="#checkout_login" aria-expanded="true">Click here to login</a>     
-
-                        </h3>
-                         <div id="checkout_login" class="collapse" data-parent="#accordion">
-                            <div class="checkout_info">
-                                <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing & Shipping section.</p>  
-                                <form action="#">  
-                                    <div class="form_group">
-                                        <label>Username or email <span>*</span></label>
-                                        <input type="text">     
-                                    </div>
-                                    <div class="form_group">
-                                        <label>Password  <span>*</span></label>
-                                        <input type="text">     
-                                    </div> 
-                                    <div class="form_group group_3 ">
-                                        <button type="submit">Login</button>
-                                        <label for="remember_box">
-                                            <input id="remember_box" type="checkbox">
-                                            <span> Remember me </span>
-                                        </label>     
-                                    </div>
-                                    <a href="#">Lost your password?</a>
-                                </form>          
+                <div class="col-lg-3 col-md-12">
+                   <!--sidebar widget start-->
+                    <aside class="sidebar_widget">
+                        <div class="widget_inner">
+                            <div class="widget_list widget_categories">
+                                <h2>Browse by Product Categories</h2>
+                                <ul>
+                                    <li><a href="#">Pharmacy & Health</a></li>
+                                    <li><a href="#">Natural Remedies</a></li>
+                                    <li><a href="#">Mother & Child Care</a></li>
+                                    <li><a href="#">Beauty & Skin Care</a></li>
+                                    <li><a href="#">Men's Grooming</a> </li>
+                                    <li><a href="#">Personal Care</a></li>
+                                </ul>
                             </div>
-                        </div>    
-                    </div>   
-               </div>
+                            <div class="widget_list widget_filter">
+                                <h2>Filter by price</h2>
+                                <form action="#"> 
+                                    <div id="slider-range"></div>   
+                                    <button type="submit">Filter</button>
+                                    <input type="text" name="text" id="amount" />   
+
+                                </form> 
+                            </div>
+                        </div>
+                    </aside>
+                    <!--sidebar widget end-->
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <h3 class="mb-30">Showing (4) search result for "<span class="text-danger">Search Parameters</span>"</h3>
+                    <!--shop wrapper start-->
+                    <!--shop toolbar start-->
+                    <div class="shop_toolbar_wrapper">
+                        <div class="shop_toolbar_btn">
+
+                            <button data-role="grid_3" type="button" class="active btn-grid-3" data-toggle="tooltip" title="3"></button>
+
+                            <button data-role="grid_4" type="button"  class=" btn-grid-4" data-toggle="tooltip" title="4"></button>
+
+                            <button data-role="grid_list" type="button"  class="btn-list" data-toggle="tooltip" title="List"></button>
+                        </div>
+                        <div class=" niceselect_option">
+                            <form class="select_option" action="#">
+                                <select name="orderby" id="short">
+
+                                    <option selected value="1">Sort by average rating</option>
+                                    <option  value="2">Sort by popularity</option>
+                                    <option value="3">Sort by newness</option>
+                                    <option value="4">Sort by price: low to high</option>
+                                    <option value="5">Sort by price: high to low</option>
+                                    <option value="6">Product Name: Z</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="page_amount">
+                            <p>Showing 1-4 of 4 results</p>
+                        </div>
+                    </div>
+                     <!--shop toolbar end-->
+                     <div class="row shop_wrapper">
+                        <div class="col-lg-4 col-md-4 col-12 ">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <a href="product-details.html"><img src="assets/img/product/product17.jpg" alt=""></a>
+                                        <div class="label_product">
+                                            <span class="label_sale">sale</span>
+                                        </div>
+                                        <div class="action_links">
+                                            <ul>
+                                                
+                                                
+                                                <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="add to cart">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product_content grid_content">
+                                       <div class="price_box">
+                                             
+                                            <span class="current_price">&#8358;7900.00</span>  
+                                        </div>
+
+                                        <h3 class="product_name grid_name"><a href="product-details.html">Product Name</a></h3>
+                                    </div>
+                                    <div class="product_content list_content">
+                                        <div class="left_caption">
+                                           <div class="price_box">
+                                                 
+                                                <span class="current_price">&#8358;7900.00</span>  
+                                            </div>
+                                            <h3 class="product_name"><a href="product-details.html">Product Name</a></h3>
+                                            <div class="product_ratings">
+                                                <ul>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product_desc">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                            </div>
+                                        </div>
+                                        <div class="right_caption">
+                                            <div class="add_to_cart">
+                                                <a href="cart.html" title="add to cart">Add to cart</a>
+                                            </div>
+                                            <div class="action_links">
+                                                <ul>
+
+                                                    <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span> Quick View</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 ">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <a href="product-details.html"><img src="assets/img/product/product20.jpg" alt=""></a>
+                                        <div class="label_product">
+                                            <span class="label_sale">sale</span>
+                                        </div>
+                                        <div class="action_links">
+                                            <ul>
+                                                
+                                                
+                                                <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="add to cart">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product_content grid_content">
+                                       <div class="price_box">
+                                             
+                                            <span class="current_price">&#8358;7900.00</span>  
+                                        </div>
+
+                                        <h3 class="product_name grid_name"><a href="product-details.html">Product Name</a></h3>
+                                    </div>
+                                    <div class="product_content list_content">
+                                        <div class="left_caption">
+                                           <div class="price_box">
+                                                 
+                                                <span class="current_price">&#8358;7900.00</span>  
+                                            </div>
+                                            <h3 class="product_name"><a href="product-details.html">Product Name</a></h3>
+                                            <div class="product_ratings">
+                                                <ul>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product_desc">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                            </div>
+                                        </div>
+                                        <div class="right_caption">
+                                            <div class="add_to_cart">
+                                                <a href="cart.html" title="add to cart">Add to cart</a>
+                                            </div>
+                                            <div class="action_links">
+                                                <ul>
+
+                                                    <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span> Quick View</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 ">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                        <div class="label_product">
+                                            <span class="label_sale">sale</span>
+                                        </div>
+                                        <div class="action_links">
+                                            <ul>
+                                                
+                                                
+                                                <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="add to cart">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product_content grid_content">
+                                       <div class="price_box">
+                                            <span class="old_price">&#8358;8006.00</span>  
+                                            <span class="current_price">&#8358;7009.00</span>  
+                                        </div>
+
+                                        <h3 class="product_name grid_name"><a href="product-details.html">Product Name</a></h3>
+                                    </div>
+                                    <div class="product_content list_content">
+                                        <div class="left_caption">
+                                           <div class="price_box">
+                                                 
+                                                <span class="current_price">&#8358;7900.00</span>  
+                                            </div>
+                                            <h3 class="product_name"><a href="product-details.html">Product Name</a></h3>
+                                            <div class="product_ratings">
+                                                <ul>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product_desc">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                            </div>
+                                        </div>
+                                        <div class="right_caption">
+                                            <div class="add_to_cart">
+                                                <a href="cart.html" title="add to cart">Add to cart</a>
+                                            </div>
+                                            <div class="action_links">
+                                                <ul>
+
+                                                    <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span> Quick View</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 ">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <a href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                        <div class="label_product">
+                                            <span class="label_sale">sale</span>
+                                        </div>
+                                        <div class="action_links">
+                                            <ul>
+                                                
+                                                <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="add to cart">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product_content grid_content">
+                                       <div class="price_box">
+                                             
+                                            <span class="current_price">&#8358;7900.00</span>  
+                                        </div>
+
+                                        <h3 class="product_name grid_name"><a href="product-details.html">Product Name</a></h3>
+                                    </div>
+                                    <div class="product_content list_content">
+                                        <div class="left_caption">
+                                           <div class="price_box">
+                                                 
+                                                <span class="current_price">&#8358;7900.00</span>  
+                                            </div>
+                                            <h3 class="product_name"><a href="product-details.html">Product Name</a></h3>
+                                            <div class="product_ratings">
+                                                <ul>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                    <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product_desc">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                            </div>
+                                        </div>
+                                        <div class="right_caption">
+                                            <div class="add_to_cart">
+                                                <a href="cart.html" title="add to cart">Add to cart</a>
+                                            </div>
+                                            <div class="action_links">
+                                                <ul>
+
+                                                    <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="ion-ios-search-strong"></span> Quick View</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="shop_toolbar t_bottom">
+                        <div class="pagination">
+                            <ul>
+                                <li class="current">1</li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="next"><a href="#">next</a></li>
+                                <li><a href="#">>></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--shop toolbar end-->
+                    <!--shop wrapper end-->
+                </div>
             </div>
-            <div class="checkout_form">
+        </div>
+    </div>
+    <!--shop  area end-->
+    
+    <!--footer area start-->
+    <footer class="footer_widgets">
+        <div class="footer_top">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <form action="#">
-                            <h3>Billing Details</h3>
-                            <div class="row">
-
-                                <div class="col-lg-6 mb-20">
-                                    <label>First Name <span>*</span></label>
-                                    <input type="text">    
-                                </div>
-                                <div class="col-lg-6 mb-20">
-                                    <label>Last Name  <span>*</span></label>
-                                    <input type="text"> 
-                                </div>
-                                <div class="col-12 mb-20">
-                                    <label>Company Name</label>
-                                    <input type="text">     
-                                </div>
-
-                                <div class="col-12 mb-20">
-                                    <label>Street address  <span>*</span></label>
-                                    <input placeholder="House number and street name" type="text">     
-                                </div>
-                                <div class="col-12 mb-20">
-                                    <input placeholder="Apartment, suite, unit etc. (optional)" type="text">     
-                                </div>
-                                <div class="col-12 mb-20">
-                                    <label>Town / City <span>*</span></label>
-                                    <input  type="text">    
-                                </div> 
-                                <div class="col-lg-6 mb-20">
-                                    <label>Phone<span>*</span></label>
-                                    <input type="text"> 
-
-                                </div> 
-                                 <div class="col-lg-6 mb-20">
-                                    <label> Email Address   <span>*</span></label>
-                                      <input type="text"> 
-
-                                </div> 
-                                <div class="col-12 mb-20">
-                                    <input id="account" type="checkbox" data-target="createp_account" />
-                                    <label for="account" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">Create an account?</label>
-
-                                    <div id="collapseOne" class="collapse one" data-parent="#accordion">
-                                        <div class="card-body1">
-                                           <label> Account password   <span>*</span></label>
-                                            <input placeholder="password" type="password">  
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-20">
-                                    <input id="address" type="checkbox" data-target="createp_account" />
-                                    <label class="righ_0" for="address" data-toggle="collapse" data-target="#collapsetwo" aria-controls="collapseOne">Ship to a different address?</label> <span>(Click on button to reveal)</span>
-                                    <div class="clearfix" style="height: 20px;"></div>
-                                    <div id="collapsetwo" class="collapse one" data-parent="#accordion">
-                                       <div class="row">
-                                           
-                                            <div class="col-lg-6 mb-30">
-                                                <label>First Name <span>*</span></label>
-                                                <input type="text">    
-                                            </div>
-                                            <div class="col-lg-6 mb-20">
-                                                <label>Last Name  <span>*</span></label>
-                                                <input type="text"> 
-                                            </div>
-                                            <div class="col-12 mb-20">
-                                                <label>Company Name</label>
-                                                <input type="text">     
-                                            </div>
-
-                                            <div class="col-12 mb-20">
-                                                <label>Street address  <span>*</span></label>
-                                                <input placeholder="House number and street name" type="text">     
-                                            </div>
-                                            <div class="col-12 mb-20">
-                                                <input placeholder="Apartment, suite, unit etc. (optional)" type="text">     
-                                            </div>
-                                            <div class="col-12 mb-20">
-                                                <label>Town / City <span>*</span></label>
-                                                <input  type="text">    
-                                            </div> 
-                                            <div class="col-lg-6 mb-20">
-                                                <label>Phone<span>*</span></label>
-                                                <input type="text"> 
-
-                                            </div> 
-                                             <div class="col-lg-6">
-                                                <label> Email Address   <span>*</span></label>
-                                                  <input type="text"> 
-
-                                            </div> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="order-notes">
-                                         <label for="order_note">Order Notes</label>
-                                        <textarea id="order_note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
-                                    </div>    
-                                </div>     	    	    	    	    	    	    
-                            </div>
-                        </form>    
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container contact_us">
+                        <div class="footer_logo">
+                            <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="footer_contact">
+                            <p>Medmart Pharmacy store is an independent pharmacy and drugstore retailer. It is focused on providing customers with exceptional service, products and advice.</p>
+                            <p><span>Address</span> Prime Waterview Garden, 1 Oba Saheed Elegushi Street, Off Freedom Way, Lekki, Lagos.</p>
+                            <p><span>Mobile: </span>0908 616 0038, 0704 612 5957, 0702 614 6937 </p>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <form action="#">    
-                            <h3>Your order</h3> 
-                            <div class="order_table table-responsive">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Product</th>
-                                            <th>Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td> Product Name <strong> × 2</strong></td>
-                                            <td> &#8358;1605.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>  Product Name	 <strong> × 2</strong></td>
-                                            <td> &#8358;5000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td> Product Name	<strong> × 2</strong></td>
-                                            <td> &#8358;5000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td> Product Name	 <strong> × 1</strong></td>
-                                            <td> &#8358;5500.00</td>
-                                        </tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Cart Subtotal</th>
-                                            <td>&#8358;21500.00</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Shipping</th>
-                                            <td><strong>&#8358;500.00</strong></td>
-                                        </tr>
-                                        <tr class="order_total">
-                                            <th>Order Total</th>
-                                            <td><strong>&#8358;2200.00</strong></td>
-                                        </tr>
-                                    </tfoot>
-                                </table>     
-                            </div>
-                            <div class="payment_method">
-                                <div class="order_button">
-                                    <button class="btn-block" type="submit">Proceed to Payment</button> 
-                                </div>    
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>Information</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="blog.html">Delivery Information</a></li>
+                                <li><a href="contact.html">Privacy Policy</a></li>
+                                <li><a href="services.html">Terms & Conditions</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Gift Certificates</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>My Account</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="wishlist.html">Wish List</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                                <li><a href="faq.html">International Orders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                   <div class="widgets_container newsletter">
+                        <h3>Follow Us</h3>
+                        <div class="footer_social_link">
+                            <ul>
+                                <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe_form">
+                           <h3>Join Our Newsletter Now</h3>
+                            <form id="mc-form" class="mc-form footer-newsletter" >
+                                <input id="mc-email" type="email" autocomplete="off" placeholder="Your email address..." />
+                                <button id="mc-submit">Subscribe!</button>
+                            </form>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts text-centre">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                            </div><!-- mailchimp-alerts end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 col-md-9">
+                        <div class="copyright_area">
+                            <p>Copyright &copy; 2020 <a href="#">Medmart Nigeria</a>  All Right Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="footer_payment text-right">
+                            <a href="#"><img src="assets/img/paystack-pay.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <!--footer area end-->
+    
+    <!-- modal area start-->
+    <div class="modal fade" id="modal_box" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal_body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                                <div class="modal_tab">  
+                                    <div class="tab-content product-details-large">
+                                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" >
+                                            <div class="modal_tab_img">
+                                                <a href="#"><img src="assets/img/product/product1.jpg" alt=""></a>    
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>  
                             </div> 
-                        </form>         
+                            <div class="col-lg-7 col-md-7 col-sm-12">
+                                <div class="modal_right">
+                                    <div class="modal_title mb-10">
+                                        <h2>Product Name</h2> 
+                                    </div>
+                                    <div class="modal_price mb-10">
+                                        <span class="new_price">&#8358;6400.99</span>       
+                                    </div>
+                                    <div class="modal_description mb-15">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam, reiciendis maiores quidem aperiam, rerum vel recusandae </p>    
+                                    </div> 
+                                    <div class="variants_selects">
+                                        <div class="modal_add_to_cart">
+                                            <form action="#">
+                                                <input min="0" max="100" step="2" value="1" type="number">
+                                                <button type="submit">add to cart</button>
+                                            </form>
+                                        </div>   
+                                    </div>
+                                    <div class="modal_social">
+                                        <h2>Share this product</h2>
+                                        <ul>
+                                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                            <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>    
+                                    </div>      
+                                </div>    
+                            </div>    
+                        </div>     
                     </div>
-                </div> 
-            </div> 
-        </div>       
-    </div>
-    <!--Checkout page section end-->
-
-   <!--footer area start-->
-   <footer class="footer_widgets">
-    <div class="footer_top">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="widgets_container contact_us">
-                    <div class="footer_logo">
-                        <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
-                    </div>
-                    <div class="footer_contact">
-                        <p>Medmart Pharmacy store is an independent pharmacy and drugstore retailer. It is focused on providing customers with exceptional service, products and advice.</p>
-                        <p><span>Address</span> Prime Waterview Garden, 1 Oba Saheed Elegushi Street, Off Freedom Way, Lekki, Lagos.</p>
-                        <p><span>Mobile: </span>0908 616 0038, 0704 612 5957, 0702 614 6937 </p>
-                    </div>
-                </div>
+                </div>    
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-6">
-                <div class="widgets_container widget_menu">
-                    <h3>Information</h3>
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="blog.html">Delivery Information</a></li>
-                            <li><a href="contact.html">Privacy Policy</a></li>
-                            <li><a href="services.html">Terms & Conditions</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Gift Certificates</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-6">
-                <div class="widgets_container widget_menu">
-                    <h3>My Account</h3>
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Order History</a></li>
-                            <li><a href="wishlist.html">Wish List</a></li>
-                            <li><a href="#">Newsletter</a></li>
-                            <li><a href="#">Affiliate</a></li>
-                            <li><a href="faq.html">International Orders</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="widgets_container newsletter">
-                    <h3>Follow Us</h3>
-                    <div class="footer_social_link">
-                        <ul>
-                            <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                            <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="subscribe_form">
-                       <h3>Join Our Newsletter Now</h3>
-                        <form id="mc-form" class="mc-form footer-newsletter" >
-                            <input id="mc-email" type="email" autocomplete="off" placeholder="Your email address..." />
-                            <button id="mc-submit">Subscribe!</button>
-                        </form>
-                        <!-- mailchimp-alerts Start -->
-                        <div class="mailchimp-alerts text-centre">
-                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                        </div><!-- mailchimp-alerts end -->
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-9 col-md-9">
-                    <div class="copyright_area">
-                        <p>Copyright &copy; 2020 <a href="#">Medmart Nigeria</a>  All Right Reserved.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="footer_payment text-right">
-                        <a href="#"><img src="assets/img/paystack-pay.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>   
-</footer>
-<!--footer area end-->
+    <!-- modal area end-->
 
 <!-- JS
 ============================================ -->
