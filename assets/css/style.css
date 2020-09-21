@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------------------
+§         /*-----------------------------------------------------------------------------------
 
     
     CSS INDEX
@@ -1323,6 +1323,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   max-height: 500px;
   padding: 18px 28px 33px;
   visibility: visible;
+  overflow: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mini_cart_wrapper:hover .mini_cart {
@@ -10172,13 +10173,15 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 #invoice{
   padding: 30px;
+  font-size: 16px;
 }
 
 .invoice {
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #fff;
   min-height: 680px;
   padding: 15px 20px;
+  border: 1px solid #ccc;
 }
 
 .invoice header {
