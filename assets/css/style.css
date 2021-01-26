@@ -1304,7 +1304,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .mini_cart_wrapper > a i.fa-shopping-bag {
   font-size: 20px;
-  padding-right: 10px;
+  padding-right: 0px;
 }
 .mini_cart_wrapper > a i.fa-angle-down {
   margin-left: 6px;
@@ -10454,4 +10454,11 @@ button.btn-submit {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.mini-mobile {
+  position: absolute;
+right: 80px;
+top: 36px;
+z-index: 8;
 }
