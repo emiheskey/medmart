@@ -1169,7 +1169,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   top: -2px;
   bottom: -2px;
   right: -2px;
-  background: #C1272C;
+  background: #006C45;
   color: #fff;
   font-weight: 400;
   padding: 0 20px;
@@ -1503,7 +1503,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*header middel css end*/
 /* 2.4 main menu css here */
 .main_menu_area {
-  background: #C1272C;
+  background: /* #C1272C */ #006C45;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main_menu_area {
